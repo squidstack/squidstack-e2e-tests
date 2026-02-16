@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build:
-    uses: github.com/cb-squidstack/cb-squidstack/.cloudbees/workflows/build-generic.yaml@main
+    uses: github.com/squidstack/squidstack/.cloudbees/workflows/build-generic.yaml@main
     with:
       app_name: squidstack-e2e-tests
       docker_user: ${{ vars.DOCKER_USER }}
