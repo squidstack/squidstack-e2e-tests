@@ -67,7 +67,7 @@ End-to-end testing framework for the Squidstack microservices application using 
 
 ### Key Components
 
-1. **Docker Image** (`gururepservice/squidstack-e2e-tests:latest`)
+1. **Docker Image** (`stacksdemo/squidstack-e2e-tests:latest`)
    - Based on `mcr.microsoft.com/playwright:v1.40.0-jammy`
    - Contains Playwright, Chromium, and test runner setup
    - Does NOT contain test files (they come from ConfigMap)
@@ -239,7 +239,7 @@ The workflow generates comprehensive evidence showing:
 
 ```yaml
 image:
-  repository: gururepservice/squidstack-e2e-tests
+  repository: stacksdemo/squidstack-e2e-tests
   tag: latest
   pullPolicy: Always
 
