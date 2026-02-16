@@ -1,5 +1,5 @@
 image:
-  repository: stacksdemo/squidstack-e2e-tests
+  repository: gururepservice/squidstack-e2e-tests
   tag: latest
   pullPolicy: Always
 
